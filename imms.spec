@@ -1,7 +1,7 @@
 
 %define		org_name	imms
 
-Summary:	Intelligent playlist plug-in for XMMS
+Summary:	Intelligent playlist plugin for XMMS
 Summary(pl):	Inteligenta wtyczka listy odtwarzania dla XMMS-a
 Name:		xmms-%{org_name}
 Version:	1.2a
