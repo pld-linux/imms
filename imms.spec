@@ -11,7 +11,6 @@ Group:		X11/Applications/Multimedia
 Source0:	http://dl.sourceforge.net/sourceforge/%{name}/%{org_name}-%{version}.tar.gz
 URL:		http://www.luminal.org/phpwiki/index.php/IMMS
 BuildRequires:	automake
-BuildRequires:	glib-devel
 BuildRequires:	xmms-devel >= 1.2.0
 BuildRequires:	id3lib-devel >= 3.8.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
