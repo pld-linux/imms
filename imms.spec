@@ -21,7 +21,7 @@ IMMS is an intelligent playlist plug-in for XMMS that tracks your
 listening patterns and adapts itself to your taste.
 
 %description -l pl
-IMMS inteligenty plugin listy odtwarzania dla XMMS'a, ¶ledzi pliki
+IMMS inteligentna wtyczka listy odtwarzania dla XMMS'a, ¶ledzi pliki
 które przes³uchujesz a nastêpnie adaptuje sie do twojego gustu.
 
 %prep
