@@ -4,12 +4,12 @@
 Summary:	Intelligent playlist plug-in for XMMS
 Summary(pl):	Inteligenta wtyczka listy odtwarzania dla XMMS-a
 Name:		xmms-%{org_name}
-Version:	0.8.1
-Release:	2
+Version:	0.9
+Release:	1
 License:	GPL
 Group:		X11/Applications/Multimedia
 Source0:	http://dl.sourceforge.net/%{org_name}/%{org_name}-%{version}.tar.bz2
-# Source0-md5:	5886b61aa8a8a6f5180807be57df0de9
+# Source0-md5:	59b5850400ca759de1e5aa47a86f68e4
 URL:		http://www.luminal.org/phpwiki/index.php/IMMS
 BuildRequires:	id3lib-devel >= 3.8.0
 BuildRequires:	rpmbuild(macros) >= 1.125
@@ -30,8 +30,11 @@ przes³uchiwane pliki, a nastêpnie adaptuj±ca siê do gustu s³uchacza.
 %setup -q -n %{org_name}-%{version}
 
 %build
-%{__make} \
-	CFLAGS="%{rpmcflags} `xmms-config --cflags` -MMD -ansi -Wall -pedantic -D_GNU_SOURCE"
+%{__autoconf}
+%{__autoheader}
+
+%configure
+%{__make} 
 
 %install
 rm -rf $RPM_BUILD_ROOT
