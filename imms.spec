@@ -4,11 +4,11 @@
 Summary:	Intelligent playlist plug-in for XMMS
 Summary(pl):	Inteligenta wtyczka listy odtwarzania dla XMMS-a
 Name:		xmms-%{org_name}
-Version:	0.7
+Version:	0.7.1
 Release:	1
 License:	GPL
 Group:		X11/Applications/Multimedia
-Source0:	http://dl.sourceforge.net/%{org_name}/%{org_name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/%{org_name}/%{org_name}-%{version}.tar.bz2
 URL:		http://www.luminal.org/phpwiki/index.php/IMMS
 BuildRequires:	id3lib-devel >= 3.8.0
 BuildRequires:	xmms-devel >= 1.2.0
@@ -25,7 +25,7 @@ IMMS to inteligentna wtyczka listy odtwarzania dla XMMS-a, ¶ledz±ca
 przes³uchiwane pliki, a nastêpnie adaptuj±ca siê do gustu s³uchacza.
 
 %prep
-%setup -q -n %{org_name}-%{version}
+%setup -q -n %{org_name}-%{version}a
 
 %build
 %{__make} \
