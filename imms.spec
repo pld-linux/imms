@@ -9,6 +9,7 @@ Release:	1
 License:	GPL
 Group:		X11/Applications/Multimedia
 Source0:	http://dl.sourceforge.net/%{org_name}/%{org_name}-%{version}.tar.bz2
+# Source0-md5:	e939204eda6b815f6386c6d44e2422a8
 URL:		http://www.luminal.org/phpwiki/index.php/IMMS
 BuildRequires:	id3lib-devel >= 3.8.0
 BuildRequires:	xmms-devel >= 1.2.0
