@@ -14,6 +14,8 @@ BuildRequires:	id3lib-devel >= 3.8.0
 BuildRequires:	xmms-devel >= 1.2.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
+%define		xmmsplugindir	%(xmms-config --general-plugin-dir)
+
 %description
 IMMS is an intelligent playlist plug-in for XMMS that tracks your
 listening patterns and adapts itself to your taste.
@@ -26,13 +28,14 @@ przes³uchiwane pliki, a nastêpnie adaptuj±ca siê do gustu s³uchacza.
 %setup -q -n %{org_name}-%{version}
 
 %build
-%{__make}
+%{__make} \
+	CFLAGS="%{rpmcflags} `xmms-config --cflags` -MMD -ansi -Wall -pedantic -D_GNU_SOURCE"
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_libdir}/xmms/General
+install -d $RPM_BUILD_ROOT%{xmmsplugindir}
 
-install libimms.so $RPM_BUILD_ROOT%{_libdir}/xmms/General
+install libimms.so $RPM_BUILD_ROOT%{xmmsplugindir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -40,4 +43,4 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README
-%attr(755,root,root) %{_libdir}/xmms/General/*.so
+%attr(755,root,root) %{xmmsplugindir}/*.so
