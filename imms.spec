@@ -8,7 +8,7 @@ Version:	0.7
 Release:	1
 License:	GPL
 Group:		X11/Applications/Multimedia
-Source0:	http://dl.sourceforge.net/sourceforge/%{name}/%{org_name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/sourceforge/%{org_name}/%{org_name}-%{version}.tar.gz
 URL:		http://www.luminal.org/phpwiki/index.php/IMMS
 BuildRequires:	automake
 BuildRequires:	xmms-devel >= 1.2.0
