@@ -14,6 +14,7 @@ URL:		http://www.luminal.org/phpwiki/index.php/IMMS
 BuildRequires:	id3lib-devel >= 3.8.0
 BuildRequires:	rpmbuild(macros) >= 1.125
 BuildRequires:	xmms-devel >= 1.2.0
+BuildRequires:	sqlite-devel
 Requires:	xmms
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
