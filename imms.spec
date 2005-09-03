@@ -9,6 +9,7 @@ Source0:	http://dl.sourceforge.net/imms/%{name}-%{version}.tar.bz2
 # Source0-md5:	e5423b073974daafd051cecf1b6d9472
 URL:		http://www.luminal.org/phpwiki/index.php/IMMS
 BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRequires:	bmp-devel >= 0.7
 BuildRequires:	id3lib-devel >= 3.8.0
 BuildRequires:	libtool
