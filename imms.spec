@@ -30,9 +30,9 @@ IMMS to inteligentna wtyczka listy odtwarzania dla XMMS-a i BMP,
 s³uchacza.
 
 %package -n bmp-%{name}
-Summary:        Intelligent playlist plugin for BMP
-Summary(pl):    Inteligenta wtyczka listy odtwarzania dla BMP
-Group:          X11/Applications/Multimedia
+Summary:	Intelligent playlist plugin for BMP
+Summary(pl):	Inteligenta wtyczka listy odtwarzania dla BMP
+Group:		X11/Applications/Multimedia
 Requires:	bmp
 
 %description -n bmp-%{name}
@@ -44,9 +44,9 @@ IMMS to inteligentna wtyczka listy odtwarzania dla BMP, ¶ledz±ca
 przes³uchiwane pliki, a nastêpnie adaptuj±ca siê do gustu s³uchacza.
 
 %package -n xmms-%{name}
-Summary:        Intelligent playlist plugin for XMMS
-Summary(pl):    Inteligenta wtyczka listy odtwarzania dla XMMS-a
-Group:          X11/Applications/Multimedia
+Summary:	Intelligent playlist plugin for XMMS
+Summary(pl):	Inteligenta wtyczka listy odtwarzania dla XMMS-a
+Group:		X11/Applications/Multimedia
 Requires:	xmms
 
 %description -n xmms-%{name}
