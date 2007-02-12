@@ -24,14 +24,14 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 IMMS is an intelligent playlist plug-in for XMMS and BMP that tracks
 your listening patterns and adapts itself to your taste.
 
-%description -l pl
+%description -l pl.UTF-8
 IMMS to inteligentna wtyczka listy odtwarzania dla XMMS-a i BMP,
-¶ledz±ca przes³uchiwane pliki, a nastêpnie adaptuj±ca siê do gustu
-s³uchacza.
+Å›ledzÄ…ca przesÅ‚uchiwane pliki, a nastÄ™pnie adaptujÄ…ca siÄ™ do gustu
+sÅ‚uchacza.
 
 %package -n bmp-%{name}
 Summary:	Intelligent playlist plugin for BMP
-Summary(pl):	Inteligenta wtyczka listy odtwarzania dla BMP
+Summary(pl.UTF-8):   Inteligenta wtyczka listy odtwarzania dla BMP
 Group:		X11/Applications/Multimedia
 Requires:	bmp
 
@@ -39,13 +39,13 @@ Requires:	bmp
 IMMS is an intelligent playlist plug-in for BMP that tracks your
 listening patterns and adapts itself to your taste.
 
-%description -n bmp-%{name} -l pl
-IMMS to inteligentna wtyczka listy odtwarzania dla BMP, ¶ledz±ca
-przes³uchiwane pliki, a nastêpnie adaptuj±ca siê do gustu s³uchacza.
+%description -n bmp-%{name} -l pl.UTF-8
+IMMS to inteligentna wtyczka listy odtwarzania dla BMP, Å›ledzÄ…ca
+przesÅ‚uchiwane pliki, a nastÄ™pnie adaptujÄ…ca siÄ™ do gustu sÅ‚uchacza.
 
 %package -n xmms-%{name}
 Summary:	Intelligent playlist plugin for XMMS
-Summary(pl):	Inteligenta wtyczka listy odtwarzania dla XMMS-a
+Summary(pl.UTF-8):   Inteligenta wtyczka listy odtwarzania dla XMMS-a
 Group:		X11/Applications/Multimedia
 Requires:	xmms
 
@@ -53,9 +53,9 @@ Requires:	xmms
 IMMS is an intelligent playlist plug-in for XMMS that tracks your
 listening patterns and adapts itself to your taste.
 
-%description -n xmms-%{name} -l pl
-IMMS to inteligentna wtyczka listy odtwarzania dla XMMS-a, ¶ledz±ca
-przes³uchiwane pliki, a nastêpnie adaptuj±ca siê do gustu s³uchacza.
+%description -n xmms-%{name} -l pl.UTF-8
+IMMS to inteligentna wtyczka listy odtwarzania dla XMMS-a, Å›ledzÄ…ca
+przesÅ‚uchiwane pliki, a nastÄ™pnie adaptujÄ…ca siÄ™ do gustu sÅ‚uchacza.
 
 %prep
 %setup -q
