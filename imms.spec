@@ -1,5 +1,5 @@
 Summary:        Intelligent playlist plugin for XMMS and BMP
-Summary(pl.UTF-8):   Inteligenta wtyczka listy odtwarzania dla XMMS-a i BMP
+Summary(pl.UTF-8):	Inteligenta wtyczka listy odtwarzania dla XMMS-a i BMP
 Name:		imms
 Version:	2.1.1
 Release:	1
@@ -31,7 +31,7 @@ słuchacza.
 
 %package -n bmp-%{name}
 Summary:	Intelligent playlist plugin for BMP
-Summary(pl.UTF-8):   Inteligenta wtyczka listy odtwarzania dla BMP
+Summary(pl.UTF-8):	Inteligenta wtyczka listy odtwarzania dla BMP
 Group:		X11/Applications/Multimedia
 Requires:	bmp
 
@@ -45,7 +45,7 @@ przesłuchiwane pliki, a następnie adaptująca się do gustu słuchacza.
 
 %package -n xmms-%{name}
 Summary:	Intelligent playlist plugin for XMMS
-Summary(pl.UTF-8):   Inteligenta wtyczka listy odtwarzania dla XMMS-a
+Summary(pl.UTF-8):	Inteligenta wtyczka listy odtwarzania dla XMMS-a
 Group:		X11/Applications/Multimedia
 Requires:	xmms
 
